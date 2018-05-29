@@ -2,11 +2,15 @@
 	"compilerOptions": {
 		"module": "commonjs",
 		"moduleResolution": "node",
-		"target": "ES5",
+		"target": "ES6",
 		"outDir": "out",
-		"sourceMap": true
-	},
-	"exclude": [
-		"node_modules"
-	]
+		"sourceMap": true,
+		"typeRoots": [
+			"node_modules/@types",
+			"typings/"
+		],
+		"lib": [
+			"es6"
+		]
+	}
 }

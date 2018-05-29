@@ -1,3 +1,22 @@
+## 0.7.0 (2018-05-13)
+ - Additional snippets from Chef 14 (@kitforbes, @tas50)
+ - Set vscode NPM package to 1.1.14 (@SeanSith)
+ - Fixes to Foodcritic output on save (@SeanSith)
+
+## 0.6.4 (2017-12-04)
+ - Additional snippets from Chef 13 (@tas50)
+ - Fix to Foodcritic output formatting (@stuartpreston) [#16](https://github.com/pendrica/vscode-chef/issues/16)
+ - Logo switched to png to comply with publishing rules (@stuartpreston)
+
+## 0.6.3 (2017-06-06)
+ - Allow `rubocop.configFile` workspace parameter (@stuartpreston)
+
+## 0.6.2 (2016-11-04)
+ - Use Cookstyle in place of Rubocop by default (@smith)
+
+## 0.6.1 (2016-06-09)
+ - Adding ChefSpec 'describe' snippet (@jerry-locke)
+
 ## 0.6.0 (2016-05-16)
  - Bug: Foodcritic was only displaying the first warning from each file inspected
  - Bug: Cookbook folders opened directly were not being detected as a cookbook (#7)
